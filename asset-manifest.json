@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vlad-Kriajenkov/test-icap-group-gmbh/static/css/main.2b738f21.css",
+    "main.js": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/main.e1acdf66.js",
+    "static/js/358.22ca433b.chunk.js": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/358.22ca433b.chunk.js",
+    "static/js/461.284926f7.chunk.js": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/461.284926f7.chunk.js",
+    "static/js/787.46507a49.chunk.js": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/787.46507a49.chunk.js",
+    "static/js/396.dac82d5c.chunk.js": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/396.dac82d5c.chunk.js",
+    "static/media/BackgroundBlurs.png": "/vlad-Kriajenkov/test-icap-group-gmbh/static/media/BackgroundBlurs.15df03238197eae8d20f.png",
+    "index.html": "/vlad-Kriajenkov/test-icap-group-gmbh/index.html",
+    "main.2b738f21.css.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/css/main.2b738f21.css.map",
+    "main.e1acdf66.js.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/main.e1acdf66.js.map",
+    "358.22ca433b.chunk.js.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/358.22ca433b.chunk.js.map",
+    "461.284926f7.chunk.js.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/461.284926f7.chunk.js.map",
+    "787.46507a49.chunk.js.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/787.46507a49.chunk.js.map",
+    "396.dac82d5c.chunk.js.map": "/vlad-Kriajenkov/test-icap-group-gmbh/static/js/396.dac82d5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b738f21.css",
+    "static/js/main.e1acdf66.js"
+  ]
+}
