@@ -1,7 +1,7 @@
-import axios, { AxiosError } from 'axios';
+import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { User, IErrorPromise } from './interface';
-import { ErrorMesege } from 'utils';
+ 
 import { Notify } from 'notiflix';
 
 axios.defaults.baseURL = 'https://technical-task-api.icapgroupgmbh.com/api';
@@ -18,8 +18,7 @@ export const logIn = createAsyncThunk(
 
       return data;
     } catch (error) {
-      const err: any = error as AxiosError;
-      ErrorMesege(err.response?.status);
+    
       return thunkAPI.rejectWithValue(error as IErrorPromise);
     }
   }
