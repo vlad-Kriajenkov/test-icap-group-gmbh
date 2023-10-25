@@ -4,7 +4,7 @@ import { logIn } from './auth-operation';
 
 const initialState: IState = {
   user: { userName: '', password: '' },
-  isLogin: true,
+  isLogin: false,
 };
 
 export const AuthSlice = createSlice({
