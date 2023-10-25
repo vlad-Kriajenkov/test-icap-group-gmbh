@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="/test-icap-group-gmbh">
+    <BrowserRouter basename="/">
       <React.StrictMode>
         <App />
       </React.StrictMode>
