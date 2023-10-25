@@ -1,8 +1,7 @@
 import React, { ChangeEvent, FC, FormEvent, useState } from 'react';
 
 import { Container, Form, Title } from './Authorization.styled';
-import { InputCustom } from 'components';
-import { Button } from 'components/Button/Button';
+import { InputCustom, Button } from 'components';
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { useAppDispatch } from 'redux/hook';
@@ -17,7 +16,7 @@ const Authorization: FC = () => {
   const handlerChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { value, name } = e.target;
     switch (name) {
-      case 'name': 
+      case 'name':
         return setUserName(value);
       case 'password':
         return setPassword(value);
