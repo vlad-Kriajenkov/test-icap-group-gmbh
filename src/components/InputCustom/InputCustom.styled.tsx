@@ -33,4 +33,10 @@ export const Label = styled.label`
   transition: 0.5s;
 `;
 
- 
+export const ErrorMesege = styled.p`
+  position: absolute;
+  top: -5px;
+  right: 0;
+  font-size: 0.54rem;
+  color: #a80a0a;
+`;
