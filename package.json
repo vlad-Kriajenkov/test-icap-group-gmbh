@@ -2,7 +2,7 @@
   "name": "test-icap-group-gmbh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vlad-Kriajenkov/test-icap-group-gmbh",
+  "homepage": "https://vlad-Kriajenkov.github.io/test-icap-group-gmbh",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
