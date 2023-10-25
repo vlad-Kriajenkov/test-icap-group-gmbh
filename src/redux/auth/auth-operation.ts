@@ -1,6 +1,6 @@
 import axios, { AxiosError } from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { User, IErrorPromise } from './interface';
+import { User } from './interface';
 
 import { Notify } from 'notiflix';
 
