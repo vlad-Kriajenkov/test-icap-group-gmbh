@@ -12,7 +12,7 @@ export const Private: FC<IPrivateRoute> = ({
   redirectTo = '/home',
 }) => {
   const isLogin = useAppSelector(state => state.auth.isLogin);
-  console.log(isLogin);
+ 
 
   const shouldRedirect = !isLogin;
   return shouldRedirect ? <Navigate to={redirectTo} /> : component;
